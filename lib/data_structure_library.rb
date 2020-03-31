@@ -2,9 +2,13 @@
 # under the GNU General Public License, Version 3. Refer LICENSE.txt.
 
 require_relative "data_structure_library/version"
+require 'data_structure_impl'
+require 'data_structure_error_library'
 
 # DataStructureLibrary.
-# A DataStructure type library. The Type component and the Error component consist the library..
+# @class_description
+#   A DataStructure type library. The Type component and the
+#   Error component consist the library.
 class DataStructureLibrary
 end
 

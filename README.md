@@ -1,14 +1,17 @@
 # data_structure_library [![Gem Version](https://badge.fury.io/rb/data_structure_library.svg)](https://badge.fury.io/rb/data_structure_library) ![Gem](https://img.shields.io/gem/dt/data_structure_library) [![Build Status](https://travis-ci.com/Diligent-Software-LLC/data_structure_library.svg?branch=master)](https://travis-ci.com/Diligent-Software-LLC/data_structure_library)
 
-A DataStructure type library. The Type component and the Error component consist the library.
+A DataStructure type library. The Type component and the Error component consist
+ the library.
 
 ## Installation
 
-- Refer the [packages](https://docs.diligentsoftware.org/datastructure/packages) page.
+- Refer the [packages](https://docs.diligentsoftware.org/datastructure#packages)
+ homepage section.
 
 ## Documentation
 
-- Refer the [Library](https://docs.diligentsoftware.org/datastructure) homepage.
+- Refer the library's [Source Documentation](https://docs.diligentsoftware.org/datastructure) 
+homepage.
 
 ## Contributing
 
@@ -22,13 +25,12 @@ Greatly appreciated.
 
 ### Report Bugs
 
-Refer the [Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/data_structure_library/issues/1).
+- Refer the [Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/data_structure_library/issues/1).
 
 ### Fix Bugs
 
-Refer the [Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/data_structure_library/issues/2).
+- Refer the [Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/data_structure_library/issues/2).
 
 ### Improve Functionality
 
-Refer the [Improvements Procedure](https://github.com/Diligent-Software-LLC/data_structure_library/issues/3).
-
+- Refer the [Improvements Procedure](https://github.com/Diligent-Software-LLC/data_structure_library/issues/3).
