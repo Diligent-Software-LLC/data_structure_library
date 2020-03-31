@@ -8,12 +8,13 @@ Gem::Specification.new do |spec|
   spec.authors               = ["Diligent Software LLC"]
   spec.email                 = ["diligentsoftwarellc@gmail.com"]
   spec.summary               = %q{A DataStructure type library.}
-  spec.description           = %q{A DataStructure type library. The Type component and the
- Error component consist the library. Donations support continuous improvement and maintenance. The aim is a reliable,
- integrable, and endurable DataStructure library. Make a donation at the
- project's collective page: https://opencollective.com/datastructure.
- One-time and recurring donations are available at $1, $2, $4, $8, and $16.
- Greatly appreciated.}
+  spec.description           = %q{A DataStructure type library. The Type
+component and the Error component consist the library. Donations support
+continuous improvement and maintenance. The aim is a reliable, integrable,
+and endurable DataStructure library. Make a donation at the project's
+collective page: https://opencollective.com/datastructure. One-time and
+recurring donations are available at $1, $2, $4, $8, and $16. Greatly
+appreciated.}
   spec.homepage              = "https://docs.diligentsoftware.org/datastructure"
   spec.license               = "GPL-3.0-only"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.6.5")
