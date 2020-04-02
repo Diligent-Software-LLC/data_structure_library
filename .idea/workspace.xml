@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BuildServerSettings">
-    <option name="LOGIN" value="" />
-    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="LOGIN" value="admin" />
+    <option name="SERVER_URL" value="http://localhost:8111" />
     <option name="REMEMBER_ME" value="true" />
     <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
     <option name="INSPECTIONS_BUILD_TYPE_IDS" />
@@ -21,12 +21,37 @@
     <option name="FILTER_MARKED_AS_FIXED" value="false" />
     <option name="SHOW_CLOSE_PROMPT" value="true" />
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
-    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="false" />
     <option name="showStatusBarWidget" value="true" />
+    <treeState key="changes">
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="3" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ChangesGroupDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
+    <treeState key="project">
+      <expandedPath>
+        <pathElement>
+          <option name="myNodeId" value="project4" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
+        </pathElement>
+      </expandedPath>
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="project4" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03cecfad-137c-435c-b63a-53699ef1a69c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
+    <list default="true" id="03cecfad-137c-435c-b63a-53699ef1a69c" name="Default Changelist" comment="Formatting&#10;&#10;80 character line wrap in Gem Specification.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structure_library.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure_library.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_structure_library/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_library/version.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +66,12 @@
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/coverage" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZtjQfemAMz8aDfF0G3tJyquKYV" />
@@ -55,10 +86,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.youtrack.notifications" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/artifacts" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mkdir artifacts" />
+      <command value="mv data_structure_library-0.1.0.gem artifacts" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="DataStructureLibraryTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
@@ -97,6 +141,10 @@
     </recent_temporary>
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SuitableConfigurationIdsCache">
+    <FIRST_MONTH_REVISION values="" />
+    <SUITABLE_CONFIGURATIONS_IDS values="" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -107,7 +155,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585665270045</updated>
-      <workItem from="1585665272588" duration="3927000" />
+      <workItem from="1585665272588" duration="4494000" />
+      <workItem from="1585675168088" duration="21000" />
+      <workItem from="1585832752231" duration="88000" />
+      <workItem from="1585838571282" duration="8052000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb, data_structure_library.rb, data_structure_library_test.rb, test_helper.rb, .gitignore, .travis.yml, Gem Specification, Gemfile, Rakefile, README.md, .yardopts, Changelog.md, Code of Conduct, and License.txt.">
       <created>1585666772759</created>
@@ -123,10 +174,24 @@
       <option name="project" value="LOCAL" />
       <updated>1585674125981</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Documenting Complete&#10;&#10;Documented code.">
+      <created>1585674460382</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585674460382</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Formatting&#10;&#10;80 character line wrap in Gem Specification.">
+      <created>1585674701448</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585674701448</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: DataStructure Sprints: 3 #Documenting " />
+        <option name="defaultSearch" value="project: DataStructure Component: Library Sprints: 5 #Development  " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -139,7 +204,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -148,7 +215,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup Complete&#10;&#10;Added version.rb, data_structure_library.rb, data_structure_library_test.rb, test_helper.rb, .gitignore, .travis.yml, Gem Specification, Gemfile, Rakefile, README.md, .yardopts, Changelog.md, Code of Conduct, and License.txt." />
     <MESSAGE value="Documenting Complete&#10;&#10;Documented code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Documenting Complete&#10;&#10;Documented code." />
+    <MESSAGE value="Formatting&#10;&#10;80 character line wrap in Gem Specification." />
+    <option name="LAST_COMMIT_MESSAGE" value="Formatting&#10;&#10;80 character line wrap in Gem Specification." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -156,44 +224,48 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="443" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1585665309910" />
-    <state x="157" y="73" width="1440" height="843" key="CommitChangelistDialog2" timestamp="1585674460080">
+    <state x="157" y="73" width="1440" height="843" key="CommitChangelistDialog2" timestamp="1585859179854">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="157" y="73" width="1440" height="843" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585674460080" />
+    <state x="157" y="73" width="1440" height="843" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585859179854" />
     <state x="153" y="123" width="1381" height="774" key="DiffContextDialog" timestamp="1585674456093">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="153" y="123" width="1381" height="774" key="DiffContextDialog/0.23.1680.975@0.23.1680.975" timestamp="1585674456093" />
-    <state width="1539" height="270" key="GridCell.Tab.0.bottom" timestamp="1585673383675">
+    <state width="1545" height="270" key="GridCell.Tab.0.bottom" timestamp="1585864537574">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585673383675" />
-    <state width="1539" height="270" key="GridCell.Tab.0.center" timestamp="1585673383674">
+    <state width="1545" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585864537574" />
+    <state width="1545" height="270" key="GridCell.Tab.0.center" timestamp="1585864537574">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585673383674" />
-    <state width="1539" height="270" key="GridCell.Tab.0.left" timestamp="1585673383674">
+    <state width="1545" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585864537574" />
+    <state width="1545" height="270" key="GridCell.Tab.0.left" timestamp="1585864537573">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585673383674" />
-    <state width="1539" height="270" key="GridCell.Tab.0.right" timestamp="1585673383675">
+    <state width="1545" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585864537573" />
+    <state width="1545" height="270" key="GridCell.Tab.0.right" timestamp="1585864537574">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1539" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585673383675" />
-    <state x="443" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585666621214">
+    <state width="1545" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585864537574" />
+    <state x="443" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585674934730">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="443" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585666621214" />
+    <state x="443" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585674934730" />
     <state x="435" y="235" width="816" height="550" key="find.popup" timestamp="1585665727534">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="435" y="235" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1585665727534" />
+    <state x="508" y="235" width="670" height="675" key="run.anything.popup" timestamp="1585675012131">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="508" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1585675012131" />
     <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1585673964958">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1585673964958" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_structure_library@DataStructureLibraryTest.rcov" NAME="DataStructureLibraryTest Coverage Results" MODIFIED="1585673379340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_library" />
+    <SUITE FILE_PATH="coverage/data_structure_library@DataStructureLibraryTest.rcov" NAME="DataStructureLibraryTest Coverage Results" MODIFIED="1585864533698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_library" />
   </component>
 </project>

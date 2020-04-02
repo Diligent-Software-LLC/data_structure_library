@@ -12,9 +12,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.1.2, RVM: ruby-2.6.5) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="data_structure_error (v1.2.1, RVM: ruby-2.6.5) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="data_structure_error_impl (v1.5.1, RVM: ruby-2.6.5) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="data_structure_error_library (v0.2.1, RVM: ruby-2.6.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="data_structure_error_impl (v2.0.0, RVM: ruby-2.6.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="data_structure_error_int (v2.0.0, RVM: ruby-2.6.5) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="data_structure_error_library (v1.0.0, RVM: ruby-2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="data_structure_impl (v0.1.0, RVM: ruby-2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="data_structure_int (v0.1.0, RVM: ruby-2.6.5) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="docile (v1.3.2, RVM: ruby-2.6.5) [gem]" level="application" />

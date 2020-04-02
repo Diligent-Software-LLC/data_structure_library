@@ -39,15 +39,15 @@ appreciated.}
   spec.require_paths = ["lib"]
 
   # Development and testing dependencies
-  spec.add_development_dependency 'bundler', '~> 2.1.2'
-  spec.add_development_dependency 'simplecov', '~> 0.17.1'
+  spec.add_development_dependency 'bundler', '~> 2.1.0'
+  spec.add_development_dependency 'simplecov', '~> 0.17.0'
   spec.add_development_dependency 'data_structure_int', '~> 0.1.0'
   spec.add_development_dependency 'data_structure_impl', '~> 0.1.0'
-  spec.add_development_dependency 'data_structure_error_library', '~> 0.2.0'
+  spec.add_development_dependency 'data_structure_error_library', '~> 1.0.0'
 
   # Gem specific runtime dependencies
   spec.add_runtime_dependency 'data_structure_int', '~> 0.1.0'
   spec.add_runtime_dependency 'data_structure_impl', '~> 0.1.0'
-  spec.add_runtime_dependency 'data_structure_error_library', '~> 0.2.0'
+  spec.add_runtime_dependency 'data_structure_error_library', '~> 1.0.0'
 
 end
