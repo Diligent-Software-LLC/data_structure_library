@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.0.0, 2020-04-02
+
+### Added
+
+- DataStructureError version 1.
+
+### Edited
+
+- Formatting.
+
+### Fixed
+
 ## v0.1.0, 2020-03-31
 
 ### Added
