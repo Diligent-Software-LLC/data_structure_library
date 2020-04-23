@@ -10,9 +10,8 @@ A DataStructure type library. The Type component and the Error component consist
 
 ## Documentation
 
-- Refer the library's 
-[Source Documentation](https://docs.diligentsoftware.org/datastructure) 
-homepage.
+- Refer DataStructure's 
+[Library](https://docs.diligentsoftware.org/datastructure) homepage.
 
 ## Contributing
 
