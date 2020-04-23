@@ -1,5 +1,27 @@
 # Changelog
 
+## v2.0.0, 2020-04-23
+
+### Added
+
+- 'require'd all components.
+- A .yardopts file assertion.
+
+### Edited
+
+- Renamed data_structure_library.rb data_structure.rb.
+- Formatted the Gem Specification.
+- Dependencies.
+- Formatted data_structure_library_test.rb.
+- Deleted Travis CI deployment settings.
+- README.md's Documentation section.
+
+### Fixed
+
+- Gem Specification Changelog URI.
+- Gem Specification License.
+- 'require' statement in test_helper.rb.
+
 ## v1.0.0, 2020-04-02
 
 ### Added
