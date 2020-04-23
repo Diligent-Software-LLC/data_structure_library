@@ -3,8 +3,7 @@
 
 # DataStructureLibrary.
 # @class_description
-#   A DataStructure type library. The Type component and the Error component
-#   consist the library.
+#   A DataStructure type library. Organizes the DataStructure components.
 class DataStructureLibrary
-  VERSION = '1.0.0'.freeze()
+  VERSION = '2.0.0'.freeze()
 end

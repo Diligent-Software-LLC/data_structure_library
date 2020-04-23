@@ -38,16 +38,16 @@
           <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
         </pathElement>
       </expandedPath>
-      <selectedPath>
-        <pathElement>
-          <option name="myNodeId" value="project4" />
-          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
-        </pathElement>
-      </selectedPath>
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03cecfad-137c-435c-b63a-53699ef1a69c" name="Default Changelist" comment="" />
+    <list default="true" id="03cecfad-137c-435c-b63a-53699ef1a69c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structure_library.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure_library.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_structure_library.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_structure_library/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_structure_library/version.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,6 +86,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="ytplugin.issueListCompactView" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -97,6 +98,7 @@
     <option name="myCommands">
       <command value="mkdir artifacts" />
       <command value="mv data_structure_library-0.1.0.gem artifacts" />
+      <command value="mv lib/data_structure_library.rb lib/data_structure.rb" />
     </option>
   </component>
   <component name="RunManager">
@@ -153,7 +155,12 @@
       <workItem from="1585665272588" duration="4494000" />
       <workItem from="1585675168088" duration="21000" />
       <workItem from="1585832752231" duration="88000" />
-      <workItem from="1585838571282" duration="8368000" />
+      <workItem from="1585838571282" duration="10871000" />
+      <workItem from="1585867984237" duration="35000" />
+      <workItem from="1585868308147" duration="3944000" />
+      <workItem from="1585918481276" duration="1733000" />
+      <workItem from="1587607621214" duration="80000" />
+      <workItem from="1587680457547" duration="646000" />
     </task>
     <task id="LOCAL-00001" summary="Setup Complete&#10;&#10;Added version.rb, data_structure_library.rb, data_structure_library_test.rb, test_helper.rb, .gitignore, .travis.yml, Gem Specification, Gemfile, Rakefile, README.md, .yardopts, Changelog.md, Code of Conduct, and License.txt.">
       <created>1585666772759</created>
@@ -190,10 +197,17 @@
       <option name="project" value="LOCAL" />
       <updated>1585864837038</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Logged Changes&#10;&#10;Updated Changelog.md.">
+      <created>1585865006060</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585865006060</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: DataStructure Component: Library Sprints: 5 #{Prepare Deploy}   " />
+        <option name="defaultSearch" value="project: DataStructure Subsystem:{ No Subsystem} Component: Library Sprints: 6 #{Setup }" />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -219,7 +233,8 @@
     <MESSAGE value="Documenting Complete&#10;&#10;Documented code." />
     <MESSAGE value="Formatting&#10;&#10;80 character line wrap in Gem Specification." />
     <MESSAGE value="Setup, Development Complete&#10;&#10;Updated dependencies. Reformatted." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup, Development Complete&#10;&#10;Updated dependencies. Reformatted." />
+    <MESSAGE value="Logged Changes&#10;&#10;Updated Changelog.md." />
+    <option name="LAST_COMMIT_MESSAGE" value="Logged Changes&#10;&#10;Updated Changelog.md." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -227,46 +242,58 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="443" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1585665309910" />
-    <state x="157" y="73" width="1440" height="843" key="CommitChangelistDialog2" timestamp="1585864836712">
+    <state x="630" y="222" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1585868393890">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="157" y="73" width="1440" height="843" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585864836712" />
+    <state x="630" y="222" key="#com.intellij.ide.macro.MacrosDialog/0.23.1680.975@0.23.1680.975" timestamp="1585868393890" />
+    <state x="572" y="274" key="#com.intellij.tools.ToolEditorDialog" timestamp="1585873643223">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="572" y="274" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.975@0.23.1680.975" timestamp="1585873643223" />
+    <state x="157" y="73" width="1440" height="843" key="CommitChangelistDialog2" timestamp="1585865005792">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="157" y="73" width="1440" height="843" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585865005792" />
     <state x="153" y="123" width="1381" height="774" key="DiffContextDialog" timestamp="1585674456093">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="153" y="123" width="1381" height="774" key="DiffContextDialog/0.23.1680.975@0.23.1680.975" timestamp="1585674456093" />
-    <state width="1545" height="270" key="GridCell.Tab.0.bottom" timestamp="1585864537574">
+    <state width="1545" height="270" key="GridCell.Tab.0.bottom" timestamp="1587681295754">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585864537574" />
-    <state width="1545" height="270" key="GridCell.Tab.0.center" timestamp="1585864537574">
+    <state width="1545" height="270" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1587681295754" />
+    <state width="1545" height="270" key="GridCell.Tab.0.center" timestamp="1587681295754">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585864537574" />
-    <state width="1545" height="270" key="GridCell.Tab.0.left" timestamp="1585864537573">
+    <state width="1545" height="270" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1587681295754" />
+    <state width="1545" height="270" key="GridCell.Tab.0.left" timestamp="1587681295753">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585864537573" />
-    <state width="1545" height="270" key="GridCell.Tab.0.right" timestamp="1585864537574">
+    <state width="1545" height="270" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1587681295753" />
+    <state width="1545" height="270" key="GridCell.Tab.0.right" timestamp="1587681295754">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1545" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585864537574" />
-    <state x="443" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585674934730">
+    <state width="1545" height="270" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1587681295754" />
+    <state x="352" y="149" key="SettingsEditor" timestamp="1585873647943">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="443" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585674934730" />
+    <state x="352" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1585873647943" />
+    <state x="443" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585873410009">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="443" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585873410009" />
     <state x="435" y="235" width="816" height="550" key="find.popup" timestamp="1585665727534">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="435" y="235" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1585665727534" />
-    <state x="508" y="235" width="670" height="675" key="run.anything.popup" timestamp="1585675012131">
+    <state x="508" y="235" width="670" height="675" key="run.anything.popup" timestamp="1587680772028">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="508" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1585675012131" />
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1585673964958">
+    <state x="508" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1587680772028" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587680658235">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1585673964958" />
+    <state x="508" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587680658235" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_structure_library@DataStructureLibraryTest.rcov" NAME="DataStructureLibraryTest Coverage Results" MODIFIED="1585864533698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_structure_library" />
