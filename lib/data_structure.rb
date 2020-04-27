@@ -8,7 +8,7 @@ require 'node'
 require 'linked_list_int'
 require 'linked_list_impl'
 require 'linked_list_iterator'
-require 'data_library'
+require 'data_type'
 
 # DataStructureLibrary.
 # @class_description

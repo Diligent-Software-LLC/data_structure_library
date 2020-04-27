@@ -1,5 +1,15 @@
 # Changelog
 
+## v2.1.0, 2020-04-27
+
+### Added
+
+### Edited
+
+### Fixed
+
+- data_structure.rb 'require' data_type statement.
+
 ## v2.0.0, 2020-04-23
 
 ### Added
