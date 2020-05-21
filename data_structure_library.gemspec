@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.name                  = "data_structure_library"
   spec.version               = DataStructureLibrary::VERSION
   spec.authors               = ["Diligent Software LLC"]
-  spec.email                 = ["diligentsoftwarellc@gmail.com"]
+  spec.email                 = ["contact@diligentsoftware.org"]
   spec.summary               = %q{A DataStructure type library.}
   spec.description           = %q{A DataStructure type library. Organizes the
  DataStructure components. Donations support continuous improvement and
@@ -43,13 +43,9 @@ are available at $1, $2, $4, $8, and $16. Greatly appreciated.}
   spec.add_development_dependency 'simplecov', '~> 0'
 
   # Gem specific runtime dependencies.
-  spec.add_runtime_dependency 'data_structure_int', '~> 1'
-  spec.add_runtime_dependency 'data_structure_impl', '~> 1'
+  spec.add_runtime_dependency 'data_structure_comp', '~> 0'
   spec.add_runtime_dependency 'data_structure_error_library', '~> 2'
   spec.add_runtime_dependency 'node', '~> 4'
-  spec.add_runtime_dependency 'linked_list_int', '~> 2'
-  spec.add_runtime_dependency 'linked_list_impl', '~> 1'
-  spec.add_runtime_dependency 'linked_list_iterator', '~> 1'
-  spec.add_runtime_dependency 'data_library', '~> 0'
+  spec.add_runtime_dependency 'linked_list_comp', '~> 0'
 
 end
