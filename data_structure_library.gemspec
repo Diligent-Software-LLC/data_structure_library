@@ -47,5 +47,6 @@ are available at $1, $2, $4, $8, and $16. Greatly appreciated.}
   spec.add_runtime_dependency 'data_structure_error_library', '~> 2'
   spec.add_runtime_dependency 'node', '~> 4'
   spec.add_runtime_dependency 'linked_list_comp', '~> 0'
+  spec.add_runtime_dependency 'linked_list_iterator', '~> 1'
 
 end

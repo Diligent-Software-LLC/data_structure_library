@@ -5,6 +5,7 @@ PATH
       data_structure_comp (~> 0)
       data_structure_error_library (~> 2)
       linked_list_comp (~> 0)
+      linked_list_iterator (~> 1)
       node (~> 4)
 
 GEM
@@ -38,6 +39,14 @@ GEM
       linked_list_int (~> 2)
     linked_list_impl (1.1.0)
     linked_list_int (2.0.0)
+    linked_list_iterator (1.2.0)
+      lli_comp (~> 0)
+      node (~> 4)
+    linked_list_iterator_impl (2.1.0)
+    linked_list_iterator_int (2.1.0)
+    lli_comp (0.1.0)
+      linked_list_iterator_impl (~> 2)
+      linked_list_iterator_int (~> 2)
     minitest (5.14.1)
     node (4.2.0)
       node_impl (~> 3)
