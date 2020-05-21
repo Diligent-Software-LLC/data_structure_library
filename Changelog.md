@@ -1,5 +1,22 @@
 # Changelog
 
+## v2.2.0, 2020-05-21
+
+### Added
+
+- 'require'd data_structure_comp.
+- Test coverage.
+
+### Edited
+
+- Gem Specification email and runtime dependencies.
+- README.md's repository description, Installation content, Documentation
+ content, and Contributing formatting.
+- Deleted data_structure_int, data_structure_impl, node, linked_list_int, 
+linked_list_impl, linked_list_iterator, and data_type 'require'ments.
+
+### Fixed
+
 ## v2.1.0, 2020-04-27
 
 ### Added
